@@ -1,0 +1,7 @@
+//promises é um OBJETO (método CONSTRUTOR-new )que representa o sucesso ou a falha de uma operação ASSÍNCRONA
+//estados das promises:  
+// pending: Estado inicial (pendente), ainda não foi realizada, nem rejeitada.
+// fulfilled: Houve sucesso na operação, a Promise está realizada.
+// rejected: Houve rejeição na operação da Promise.
+// settled: A Promise foi realizada ou rejeitada. (finalizada)
+//promise é uma função

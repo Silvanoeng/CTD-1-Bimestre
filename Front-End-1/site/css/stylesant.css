@@ -1,0 +1,257 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: black;
+  font-family: "Roboto", Arial, sans-serif;
+}
+
+#header {
+  display: flex;
+  position: sticky;
+  top: 0;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: black;
+  z-index: 4;
+}
+
+.menu-top {
+  display: flex;
+}
+
+.menu-top li {
+  margin-left: 4px;
+}
+
+.menu-top li a {
+  display: block;
+  padding: 10px;
+}
+
+a.menu-botao {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  padding: 10px 30px;
+  border-radius: 9px;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+
+a.menu-botao:hover {
+  background-color: #f0f2f2;
+  color: black;
+  font-weight: bold;
+}
+
+#logo {
+  font-family: "Limelight", cursive;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#banner1 {
+  background-image: url(../img/banner\ 2.jpg);
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: calc(100vh - 90px);
+}
+
+#banner2 {
+  background-image: url(../img/banner\ 2.jpg);
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: calc(100vh - 400px);
+}
+#artista{
+  background-image: url("../img/fundo\ imagem\ site.jpg")
+}
+#albuns{
+  background-image: url("../img/fundo\ imagem\ site.jpg")
+}
+.grupos {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-around;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-image: url("../img/fundo\ imagem\ site.jpg");
+}
+
+.capa a {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.capa img {
+  height: 90%;
+  width: 90%;
+  object-fit: cover;
+  border: 5px solid white;
+  transition: all 0.3s ease-in-out;
+  border-radius: 3rem;
+  z-index: 2;
+}
+
+.capa img:hover {
+  transform: scale(1.1);
+}
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  margin-top: 100px;
+  flex-wrap: wrap;
+  background: black;
+  color: white;
+  height: 181px;
+  flex-direction: row;
+  align-content: space-around;
+  bottom: 0;
+}
+
+.d1 {
+  color: black;
+  text-align: center;
+  padding: 10%;
+  font-size: 1.5rem;
+  margin-left: 1.5rem;
+  font-family: "Arial", sans-serif;
+  display: block;
+  max-width: max-content;
+}
+.d2{
+  background-color: grey;
+  padding: 50px;
+  border-radius: 2rem;
+  font-size: 2.7rem;
+  width: 800px;
+}
+
+.tnp-email {
+  width: 350px;
+  height: 50px;
+  font-family: "Days One", sans-serif;
+  background-color: white;
+  border-radius: 10px;
+  border: none;
+}
+
+.button {
+  margin: 0px 18px 0px 0px;
+  width: 150px;
+  height: 50px;
+  background-color: #f0f2f2;
+  font-family: "Arial", sans-serif;
+  text-decoration: black;
+  border-radius: 10px;
+  border: none;
+}
+
+.button:hover {
+  transition: all 1s;
+  cursor: pointer;
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+/* nomes e linkedin * Redes */
+.redes {
+  text-align: right;
+  grid-column: 1 / 3;
+  display: flex;
+  justify-content: right;
+  align-items: flex;
+  font-size: 1.5rem;
+  justify-content: right;
+  max-width: max-content;
+}
+
+.redes a {
+  font-size: 1.5rem;
+  margin-left: 2rem;
+  text-align: right;
+  display: inline;
+  max-width: max-content;
+}
+
+.titulo {
+  padding: 4rem;
+  text-align: right;
+  display: block;
+  max-width: max-content;
+}
+
+.titulo p {
+  color: #fff;
+  display: table-footer-group;
+  font-size: 3rem;
+  padding: 0 10%;
+  max-width: max-content;
+}
+
+.rs {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  padding: 10% 2rem;
+  border-radius: 1rem;
+  transition: all 0.3s ease-in-out;
+  max-width: max-content;
+}
+
+.fvlink {
+  height: 1.5rem;
+  width: 1.5rem;
+  max-width: max-content;
+}
+
+.fvlink:hover {
+  transition: all 1s;
+  cursor: pointer;
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+@media (max-width: 689px) {
+  .card-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (min-width: 690px) and (max-width: 1045px) {
+  .card-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

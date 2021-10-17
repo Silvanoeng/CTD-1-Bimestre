@@ -1,0 +1,60 @@
+
+body{
+    font-family: "Courier Nem" , Courier, monospace;
+    }
+h1{
+    color: white;
+    background-color: rgba(102,104,101,0.5);
+    font-family: 'Russo One' , sans-serif;
+    text-align: center;
+    
+}
+ol{
+    color: rgb(24, 90, 165);
+    background-color: rgba(223, 231, 219, 0.5);
+    display: inline-block;
+}
+
+img{
+    width: 30%;
+    margin: 10px;
+    top: 50px;
+    /* width: 600px;
+    height: 500px; */
+    
+}
+a.redirecionar{
+    color: white;
+    background-color:blue;
+    font-family: 'Russo One' , sans-serif;
+    font-style: normal;
+    font-size: 25px;
+}
+
+h4{
+    margin: 30px;
+    padding: 15px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.tituloInferior{
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-family: 'Russo One' , sans-serif;
+}
+
+.Posts{
+    display: inline;
+    color: white;
+    background-color: rgba(102,104,101,0.5);
+    font-family: 'Russo One' , sans-serif;
+    padding: 15px 10px 5px;
+    margin: 15px 10px 5px;
+    
+}
+.naovisivel{
+    color:white;
+    background-color:white;
+}

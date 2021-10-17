@@ -1,0 +1,15 @@
+/* Troca de cor do título */
+#form > h1:hover{
+    color: white;
+}
+/* Troca de cor das caixas para inserir os dados */
+.caixa_dados:hover{
+    background-color: rgba(137, 43, 226, 0.5);
+    border-radius: 5px;
+}
+/* Troca de cor do botão */
+button:hover{
+    background-color: rgba(137, 43, 226);
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: bold;
+}

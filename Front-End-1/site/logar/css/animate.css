@@ -1,0 +1,18 @@
+/* Tempo e nome da animação do formulario. */
+.slide-form {
+    animation-duration: 4s;
+    animation-name: slidesc;
+    }
+  /* Movimentos da animação do formulario */
+  @keyframes slidesc {
+    0% {
+      transform: scale(0, 0);
+    }
+     75% {
+      transform: scale(1.1, 1.1);
+    }
+      100% {
+      transform: scale(1, 1);
+    }
+  }
+  

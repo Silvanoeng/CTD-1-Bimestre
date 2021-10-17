@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 50px;
+  font-family: sans-serif;
+  background-image: url("../img/fundo_esp.jpg");
+}
+
+#form {
+  padding: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  max-width: 450px;
+  margin: 100px auto;
+  z-index: 2;
+}
+
+#form img {
+  position: absolute;
+  margin: -5px auto;
+  z-index: -1;
+}
+
+#form h1 {
+  color: violet;
+  font-family: "Press Start 2P", cursive;
+  transition: all 0.5s ease-in-out;
+  text-align: center;
+  line-height: 1.5;
+}
+div.nome {
+  margin: 20px 0 0 0;
+}
+#form label {
+  color: red;
+  font-size: 18px;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  background: none;
+  border: none;
+  border-bottom: 1px solid purple;
+  margin-bottom: 30px;
+  color: white;
+  outline: none;
+  padding: 10px;
+  font-size: 18px;
+}
+::-webkit-input-placeholder{
+  color: rgba(255, 255, 255, 0.75);
+}
+div.maioridade {
+  margin: 0 0 20px 0;
+}
+.caixa_dados {
+  transition: all 0.5s ease-in-out;
+}
+
+button {
+  padding: 15px 15px;
+  margin: 0 10px 0 0;
+  border-radius: 10px;
+  border: none;
+  background: none;
+  color: white;
+  background-color: purple;
+  transition: all 0.5s ease-in-out;
+  font-size: 15px;
+  font-family: "Press Start 2P", cursive;
+}

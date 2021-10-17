@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: arial, sans-serif;
+}
+
+/* container flex */
+
+#flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+article {
+  justify-content: center;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  font-size: 1.5rem;
+  max-width: 15rem;
+  min-width: 10rem;
+}
+.nome {
+  width: 15%;
+}
+.nome a {
+  width: 100%;
+  text-decoration: none;
+}
+.nome img {
+  width: 15%;
+  transition: all 0.3s ease-in-out;
+  z-index: 2;
+}
+.nome img:hover {
+  transform: scale(1.2);
+}

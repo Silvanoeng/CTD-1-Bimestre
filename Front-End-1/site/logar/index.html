@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/styles.css">
+    <!-- Hover -->
+    <link rel="stylesheet" href="./css/hover.css">
+    <!-- Animações -->
+    <!-- <link rel="stylesheet" href="./css/animate.css"> -->
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Limelight&family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Days+One&display=swap" rel="stylesheet">
+    <!-- Favico -->
+    <link rel="shortcut icon" href="../img/vinil.png"> 
+    <title>J²Rhapsody Login</title>
+</head>
+<body>
+    
+    <!-- HEADER-->
+    <header id="header">
+        <h2><a id="logo" class="menu-botao" href="#inicio">J² Rhapsody</a></h2>
+        <nav>
+            <ul class="menu-top">
+                <li><a class="menu-botao" href="../index.html" target="black">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+
+     <!-- BOX -->
+     <form id="form" class="slide-form">
+        <h1>Conecte-se</h1>
+        <!-- NOME -->
+        <div class="nome">
+            <label for="nome">Nome:</label>
+            <input class="caixa_dados" type="text" id="nome" name="nome" placeholder="Digite seu nome">
+        </div>
+        <!-- <div>
+            <label for="nome">Sobrenome:</label>
+            <input class="caixa_dados" type="text" id="sobrenome" name="sobrenome" placeholder="Digite seu sobrenome">
+        </div> -->
+        <!-- EMAIL -->
+        <div>
+            <label for="email">E-mail:</label>
+            <input class="caixa_dados" type="email" id="email" name="email" placeholder="contato@gmail.com">
+        </div>
+        <!-- SENHA -->
+        <div>
+            <label for="">Senha:</label>
+            <input class="caixa_dados" type="password" id="senha" placeholder="**********">
+        </div>
+        <!-- SENHA -->
+        <div class="salvarSenha">
+            <input type="checkbox" id="salvarSenha" name="salvarSenha" value="salvar">
+            <label>Salvar senha</label>
+        </div>
+        <!-- BOTÔES -->
+        <div>
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+        </div>
+
+    </form>
+</body>
+</html>

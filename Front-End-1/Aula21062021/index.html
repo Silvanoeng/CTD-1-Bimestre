@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon -->
+    <link href="./img/HTML5.png" rel="icon" type="image/x-icon">
+    <!-- CSS -->
+    <link href="./css/styles.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,400&display=swap" rel="stylesheet">
+    <title>IFome</title>
+</head>
+<body>
+    <main>
+        <h1>iFome</h1>
+        <p>A sua fome é nosso lucro.</p>
+        <!-- Inicio do form -->
+        <form action="http://127.0.0.1/pedido" method="post">
+            
+            <label for="email">Email</label>
+            <Input type="email" name="email" id="email">
+            
+            <label for="nome">Nome</label>
+            <Input type="text" name="nome" id="nome">
+            
+            <label for="endereco">Digite seu endereço</label>  
+            <div>  
+                <textarea class="quadro" name="endereco" id="endereco" cols="10" rows="5" wrap="hard" maxlength="100"></textarea>
+            </div>
+            <select name="lanches" id="lanches">
+                <option value="">Selecione uma opção</option>
+                <option value="hamburge">Hamburger</option>
+                <option value="pastel">Pastel</option>
+                <option value="caoQuente">Cachorro Quente</option>
+            </select>
+
+            <button type="submit">Enviar</button>
+            <button type="reset">Cancelar</button>
+        </form>
+
+    </main>
+    
+</body>
+</html>

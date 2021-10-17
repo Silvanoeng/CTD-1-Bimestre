@@ -1,0 +1,358 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: black;
+  font-family: Arial, "Roboto", sans-serif;
+}
+
+#header {
+  display: flex;
+  position: sticky;
+  top: 0;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: black;
+  z-index: 4;
+}
+
+.menu-top {
+  display: flex;
+}
+
+.menu-top li {
+  margin-left: 2px;
+}
+
+.menu-top li a {
+  display: block;
+  padding: 10px;
+}
+
+a.menu-botao {
+  color: white;
+  padding: 10px 30px;
+  border-radius: 9px;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+
+a.menu-botao:hover {
+  background-color: #f0f2f2;
+  color: black;
+  font-weight: bold;
+}
+
+#logo {
+  font-family: "Limelight", cursive;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+}
+
+#banner1 {
+  background-image: url(../img/image.png);
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: calc(100vh - 80px);
+}
+article.abertura {
+  justify-content: center;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  font-size: 2rem;
+  max-width: 100rem;
+  min-width: 1rem;
+  font-family: "Limelight", cursive;
+  text-align: center;
+  font-size: 10rem;
+  color: white;
+}
+
+
+#banner2 {
+  background-image: url(../img/image.png);
+  background-attachment: fixed;
+  background-position:top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: calc(100vh - 100px);
+}
+
+#artistas {
+  background-image: url("../img/fundo\ imagem\ site.jpg");
+  padding-top: 7rem;
+  padding-bottom: 1rem;
+  text-align: center;
+  padding-left: 4%;
+  font-size: 2.2rem;
+}
+#albuns {
+  background-image: url("../img/fundo\ imagem\ site.jpg");
+  padding-top: 7rem;
+  padding-bottom: 1rem;
+  text-align: center;
+  padding-left: 4%;
+  font-size: 2.2rem;
+}
+.grupos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-image: url("../img/fundo\ imagem\ site.jpg");
+}
+#grupo-albuns.grupos {
+  padding-bottom: 7rem;
+}
+
+.capa a {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.capa img {
+  height: 90%;
+  width: 90%;
+  object-fit: cover;
+  border: 5px solid white;
+  transition: all 0.3s ease-in-out;
+  border-radius: 3rem;
+  z-index: 2;
+}
+
+.capa img:hover {
+  transform: scale(1.1);
+}
+
+#flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+article.cadastro {
+  justify-content: center;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  font-size: 2rem;
+  max-width: 45rem;
+  min-width: 10rem;
+  background-color: grey;
+  padding: 3rem;
+  border-radius: 1rem;
+}
+
+.cadastro h4{
+  display: block;
+  color: white;
+}
+
+.tnp-email {
+  font-size: 1.2rem;
+  width: 25rem;
+  height: 2.5rem;
+  background-color: white;
+  border-radius: 0.5rem;
+  border: none;
+}
+
+.button {
+  margin: 0px 18px 0px 0px;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  width: 8rem;
+  height: 2.5rem;
+  background-color: #f0f2f2;
+  text-decoration: black;
+  border-radius: 0.5rem;
+  border: none;
+}
+
+.button:hover {
+  transition: all 1s;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+#contatos {
+  background-image: url("../img/fundo\ imagem\ site.jpg");
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+#contatos h3 {
+  padding-bottom: 1rem;
+}
+
+article.nome {
+  justify-content: center;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  font-size: 1.5rem;
+  max-width: 15rem;
+  min-width: 10rem;
+  
+}
+
+article.abertura h3 {
+  font-size: 3rem;
+  padding-top: 1rem;
+  text-align: right;
+}
+
+.desc{
+  justify-content: center;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  font-size: 2rem;
+  max-width: 45rem;
+  min-width: 10rem;
+  background-color: grey;
+  padding: 3rem;
+  border-radius: 1rem;
+  margin-top:52px;
+}
+
+.desc h4{
+  color:white;
+  font-size:22px;
+  text-align: justify;
+}
+
+
+.nome {
+  width: 14rem;
+  
+}
+.nome a {
+  width: 100%;
+  text-decoration: none;
+}
+.nome img {
+  width: 3rem;
+  transition: all 0.3s ease-in-out;
+  z-index: 2;
+}
+.nome img:hover {
+  transform: scale(1.2);
+}
+.nome h4{
+  display: block;
+  color: black;
+}
+footer #footer {
+  display: flex;
+  position: sticky;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  background-color: black;
+  color: white;
+  z-index: 4;
+}
+#footer h2{
+  color: white;
+  padding: 20px;
+  font-family: "Arial", cursive;
+  font-size: 14px;
+  text-align: center;
+}
+
+@media (max-width: 689px) {
+  .desc{
+    max-width: 25rem;
+    min-width: 5rem;
+    padding: 1rem;
+    border-radius: .25rem;
+  }
+
+  .desc h4{
+    font-size: 1rem;
+  }
+  .grupos {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  article.abertura {
+    font-size: 3rem;
+  }
+  #footer h2 {
+  font-size: 1.2rem;
+  }
+  #logo {
+    font-size: 1.2rem;
+    }
+  .menu-botao {
+    font-size: 0.8rem;
+  }
+  article.cadastro {
+    font-size: 1rem;
+    max-width: 25rem;
+    min-width: 5rem;
+    padding: 1rem;
+    border-radius: .25rem;
+  }  
+  .tnp-email {
+    font-size: 0.6rem;
+    width: 13rem;
+    height: 1.25rem;
+    border-radius: 0.25rem;
+  }
+  
+  .button {
+    margin: 0px 9px 0px 0px;
+    margin-top: 0.5rem;
+    font-size: 0.6rem;
+    width: 4rem;
+    height: 1.25rem;
+    border-radius: 0.25rem;
+  }
+  .capa img {
+    border: 2px solid white;
+    border-radius: 1rem;
+  }
+
+}
+
+@media (min-width: 690px) and (max-width: 1045px) {
+  .grupos {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  article.abertura {
+    font-size: 5rem;
+  }
+}
+@media (min-width: 1045px) and (max-width: 1350px) {
+    article.abertura {
+    font-size: 7rem;
+  }
+}
+

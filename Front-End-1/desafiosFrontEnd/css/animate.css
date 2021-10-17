@@ -1,0 +1,42 @@
+/* Tempo e nome da animação do formulario. */
+.slide-form {
+  animation-duration: 4s;
+  animation-name: slidesc;
+  }
+/* Tempo de duração e delay(tempo para iniciar), nome e animação constante. */
+.imgast {
+  animation-duration: 20s;
+  animation-name: imgast;
+  animation-delay: 4s;
+  animation-iteration-count: infinite;
+}
+/* Movimentos da animação do formulario */
+@keyframes slidesc {
+  0% {
+    transform: scale(0, 0);
+  }
+   75% {
+    transform: scale(1.3, 1.3);
+  }
+    100% {
+    transform: scale(1, 1);
+  }
+}
+/* Movimento do astronauta */
+@keyframes imgast {
+  0% {
+    transform: translateX(0px);
+  }
+  25% {
+    transform: translateX(15px);
+  }
+  50% {
+    transform: translateX(0px);
+  }
+  75% {
+    transform: translateX(15px);
+  }
+  100%{
+    transform: translateX(0px);
+  }
+}  
